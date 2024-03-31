@@ -10,6 +10,7 @@ app.use(logger)
 
 // авторизация пользователя
 app.use('/api/user', user)
+// книги
 app.use('/api/books', books)
 
 app.use(error404)
